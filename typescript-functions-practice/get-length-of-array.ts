@@ -1,5 +1,5 @@
 /* exported getLengthOfArray */
 
-function getLengthOfArray(array: any[]): any {
+function getLengthOfArray(array: any[]): number {
   return array.length;
 }
