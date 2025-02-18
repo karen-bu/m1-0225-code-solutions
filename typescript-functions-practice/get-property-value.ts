@@ -1,5 +1,5 @@
 /* exported getPropertyValue */
 
-function getPropertyValue(object: object, key: string): any {
+function getPropertyValue(object: any, key: any): any {
   return object[key];
 }
