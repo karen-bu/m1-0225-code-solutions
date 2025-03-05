@@ -1,0 +1,23 @@
+button {
+  font-size: 30px;
+  padding: 50px;
+}
+
+button:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+table {
+  width: 500px;
+}
+
+thead {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.bodyrow:nth-child(odd) {
+  background-color: lightgrey;
+}
