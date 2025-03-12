@@ -20,13 +20,67 @@
   color: darkgrey;
 }
 
-#contact-button {
+button#contact {
   background-color: #294463;
   color: white;
   font-family: Avenir, sans-serif;
   font-size: 1rem;
   margin-left: 1rem;
   width: 8rem;
-  height: 39px;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+
+/* Home Page */
+
+.emr-reimagined {
+  margin: 3rem;
+  position: relative;
+}
+
+.emr-reimagined-background {
+  position: relative;
+  width: 100%;
+}
+
+#emr-reimagined-image-photo {
+  width: 100%;
+}
+
+#emr-reimagined-image-overlay {
+  position: absolute;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 100%;
+  bottom: 0.25rem;
+}
+
+.emr-reimagined-text {
+  color: white;
+  width: 40%;
+  position: absolute;
+  bottom: 15rem;
+  left: 5rem;
+}
+
+h1.emr-reimagined-body {
+  font-family: 'Tiempos Headline', serif;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+p.emr-reimagined-body {
+  font-family: Avenir, sans-serif;
+  line-height: 200%;
+}
+
+button#get-started {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 5rem;
   border-radius: 10px;
 }
