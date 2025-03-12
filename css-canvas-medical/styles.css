@@ -1,0 +1,32 @@
+/* Recurring Elements */
+
+.container {
+  margin: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+#header-logo > img {
+  width: 200px;
+}
+
+.header-link {
+  margin: 1rem;
+  font-family: Avenir, sans-serif;
+  color: darkgrey;
+}
+
+#contact-button {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1rem;
+  margin-left: 1rem;
+  width: 8rem;
+  height: 39px;
+  border-radius: 10px;
+}
