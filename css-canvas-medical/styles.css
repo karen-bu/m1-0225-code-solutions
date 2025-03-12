@@ -1,5 +1,7 @@
 /* Recurring Elements */
 
+/* Top Header */
+
 .container {
   margin: 2rem;
 }
@@ -31,7 +33,7 @@ button#contact {
   border-radius: 10px;
 }
 
-/* Home Page */
+/* Home Page - Hero Section */
 
 .emr-reimagined {
   margin: 3rem;
@@ -83,4 +85,44 @@ button#get-started {
   width: 15rem;
   height: 5rem;
   border-radius: 10px;
+}
+
+/* Home Page - Clinicians Prefer Section */
+
+.clinicians-prefer-canvas {
+  background: rgb(245, 245, 245);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.one-column-layout h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 2.25rem;
+  color: rgb(130, 130, 130);
+}
+
+.one-column-layout p {
+  font-family: Avenir, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(130, 130, 130);
+  width: 500px;
+  line-height: 200%;
+}
+
+.two-column-layout {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  color: rgb(130, 130, 130);
 }
