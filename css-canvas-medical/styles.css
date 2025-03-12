@@ -1,4 +1,4 @@
-/* Recurring Elements */
+/* RECURRING ELEMENTS */
 
 /* Top Header */
 
@@ -33,6 +33,107 @@ button#contact {
   border-radius: 10px;
 }
 
+/* Footer - Ready to Learn More */
+
+button.get-started {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+.footer {
+  margin: 3rem;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.learn-more {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.learn-more-footer-column {
+  justify-content: space-between;
+}
+
+.learn-more-footer-column h1 {
+  font-family: 'Tiempos Headline', serif;
+  color: rgb(130, 130, 130);
+  font-size: 2rem;
+}
+
+.learn-more-footer-column p {
+  font-family: Avenir, sans-serif;
+  color: rgb(130, 130, 130);
+  text-align: left;
+  display: wrap;
+}
+
+/* Footer - Site Map */
+
+.site-map {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: rgb(80, 80, 80);
+}
+
+#footer-logo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.site-map p {
+  color: white;
+  font-family: avenir, sans-serif;
+  line-height: 80%;
+}
+
+.site-map-footer-column {
+  width: calc(100% / 5);
+}
+
+.footer-column-title {
+  font-size: 1.5rem;
+  padding-top: 3.8rem;
+}
+
+.footer-link {
+  color: white;
+}
+
+/* Footer - Privacy and Contact */
+
+.privacy-contact {
+  padding: 2rem;
+  font-family: avenir, sans-serif;
+  background: rgb(245, 245, 245);
+}
+
+.privacy-contact-footer-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.privacy-contact-link {
+  margin: 2rem;
+  color: rgb(80, 80, 80);
+}
+
+/* END RECURRING ELEMENTS */
+
+/* HOME PAGE */
+
 /* Home Page - Hero Section */
 
 .emr-reimagined {
@@ -61,7 +162,7 @@ button#contact {
   color: white;
   width: 40%;
   position: absolute;
-  bottom: 15rem;
+  bottom: 13rem;
   left: 5rem;
 }
 
@@ -74,17 +175,7 @@ h1.emr-reimagined-body {
 p.emr-reimagined-body {
   font-family: Avenir, sans-serif;
   line-height: 200%;
-}
-
-button#get-started {
-  background-color: #294463;
-  color: white;
-  font-family: Avenir, sans-serif;
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  width: 15rem;
-  height: 5rem;
-  border-radius: 10px;
+  padding-bottom: 2rem;
 }
 
 /* Home Page - Clinicians Prefer Section */
@@ -95,7 +186,7 @@ button#get-started {
   padding-bottom: 5rem;
 }
 
-.row {
+.clinicians-prefer-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -103,13 +194,14 @@ button#get-started {
   margin: 0.5rem;
 }
 
-.one-column-layout h1 {
+.clinicians-prefer-one-column-layout h1 {
   font-family: 'Tiempos Headline', serif;
   font-size: 2.25rem;
+  text-align: center;
   color: rgb(130, 130, 130);
 }
 
-.one-column-layout p {
+.clinicians-prefer-one-column-layout p {
   font-family: Avenir, sans-serif;
   font-size: 1rem;
   text-align: center;
@@ -118,7 +210,7 @@ button#get-started {
   line-height: 200%;
 }
 
-.two-column-layout {
+.clinicians-prefer-two-column-layout {
   display: flex;
   width: 50%;
   flex-direction: column;
@@ -126,3 +218,5 @@ button#get-started {
   font-family: Avenir, sans-serif;
   color: rgb(130, 130, 130);
 }
+
+/* END HOME PAGE */
