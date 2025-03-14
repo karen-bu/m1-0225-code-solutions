@@ -613,7 +613,7 @@ p.emr-reimagined-body {
   width: 100%;
 }
 
-input {
+.blog-form-input {
   border: transparent;
   background: transparent;
   border-bottom: 1px solid rgb(76, 84, 94);
@@ -678,3 +678,78 @@ input::placeholder {
 }
 
 /* CONTACT US PAGE  */
+
+.contact-us {
+  display: flex;
+  margin: 3rem;
+  align-items: center;
+}
+
+.contact-us h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.contact-us h2 {
+  font-family: Avenir, serif;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.contact-us p {
+  font-family: Avenir, serif;
+  color: rgb(76, 84, 94);
+  font-size: 2rem;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-column {
+  width: calc(100% / 2);
+  margin: 2rem;
+}
+
+.contact-form-input {
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid rgb(76, 84, 94);
+  height: 100px;
+  width: 100%;
+}
+
+textarea {
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid rgb(76, 84, 94);
+  height: 100px;
+  width: 100%;
+}
+
+textarea::placeholder {
+  padding-top: 4rem;
+  color: rgb(212, 212, 212);
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-info-button {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.submit-contact-info {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.25rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
