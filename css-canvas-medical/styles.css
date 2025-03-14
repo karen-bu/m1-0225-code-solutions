@@ -33,6 +33,10 @@ button#contact {
   border-radius: 10px;
 }
 
+hr {
+  border-top: 2px rgb(245, 245, 245);
+}
+
 /* Footer - Ready to Learn More */
 
 button.get-started {
