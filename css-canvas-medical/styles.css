@@ -577,3 +577,64 @@ p.emr-reimagined-body {
   font-size: 1.25rem;
   line-height: 150%;
 }
+
+/* BLOG PAGE */
+
+/* Blog - Hero Section */
+
+.blog-hero {
+  margin: 3rem;
+  padding: 5rem;
+}
+
+.blog-hero h1 {
+  font-family: 'Tiempos Headline', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.blog-hero p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.5rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+.blog-hero-form {
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  text-align: center;
+}
+
+.blog-hero-form-element {
+  width: 100%;
+}
+
+input {
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid rgb(76, 84, 94);
+  width: 800px;
+  height: 100px;
+}
+
+input::placeholder {
+  color: rgb(212, 212, 212);
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.blog-subscribe {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
