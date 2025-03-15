@@ -1,0 +1,759 @@
+/* RECURRING ELEMENTS */
+
+/* Top Header */
+
+.container {
+  margin: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.header-logo > img {
+  width: 200px;
+}
+
+.header-link {
+  margin: 1rem;
+  font-family: Avenir, sans-serif;
+  color: darkgrey;
+}
+
+button#contact {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1rem;
+  margin-left: 1rem;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+
+hr {
+  border-top: 2px rgb(245, 245, 245);
+}
+
+/* Footer - Ready to Learn More */
+
+button.get-started {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+.footer {
+  margin: 3rem;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.learn-more {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.learn-more-footer-column {
+  justify-content: space-between;
+}
+
+.learn-more-footer-column h1 {
+  font-family: 'Tiempos Headline', serif;
+  color: rgb(76, 84, 94);
+  font-size: 2rem;
+}
+
+.learn-more-footer-column p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  text-align: left;
+  display: wrap;
+}
+
+/* Footer - Site Map */
+
+.site-map {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: rgb(76, 84, 94);
+}
+
+#footer-logo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.site-map p {
+  color: white;
+  font-family: avenir, sans-serif;
+  line-height: 80%;
+}
+
+.site-map-footer-column {
+  width: calc(100% / 5);
+}
+
+.footer-column-title {
+  font-size: 1.5rem;
+  padding-top: 3.8rem;
+}
+
+.footer-link {
+  color: white;
+}
+
+/* Footer - Privacy and Contact */
+
+.privacy-contact {
+  padding: 2rem;
+  font-family: avenir, sans-serif;
+  background: rgb(245, 245, 245);
+}
+
+.privacy-contact-footer-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.privacy-contact-link {
+  margin: 2rem;
+  color: rgb(80, 80, 80);
+}
+
+/* END RECURRING ELEMENTS */
+
+/* HOME PAGE */
+
+/* Home Page - Hero Section */
+
+.emr-reimagined {
+  margin: 3rem;
+  position: relative;
+}
+
+.emr-reimagined-background {
+  position: relative;
+  width: 100%;
+}
+
+#emr-reimagined-image-photo {
+  width: 100%;
+}
+
+#emr-reimagined-image-overlay {
+  position: absolute;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 100%;
+  bottom: 0.25rem;
+}
+
+.emr-reimagined-text {
+  color: white;
+  width: 40%;
+  position: absolute;
+  bottom: 13rem;
+  left: 5rem;
+}
+
+h1.emr-reimagined-body {
+  font-family: 'Tiempos Headline', serif;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+p.emr-reimagined-body {
+  font-family: Avenir, sans-serif;
+  line-height: 200%;
+  padding-bottom: 2rem;
+}
+
+/* Home Page - Clinicians Prefer Section */
+
+.clinicians-prefer-canvas {
+  background: rgb(245, 245, 245);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.clinicians-prefer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.clinicians-prefer-one-column-layout h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 2.25rem;
+  text-align: center;
+  color: rgb(76, 84, 94);
+}
+
+.clinicians-prefer-one-column-layout p {
+  font-family: Avenir, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(76, 84, 94);
+  width: 500px;
+  line-height: 200%;
+}
+
+.clinicians-prefer-two-column-layout {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+}
+
+/* END HOME PAGE */
+
+/* PRODUCT PAGE */
+
+/* Product Page - Hero Section */
+
+.patient-centered {
+  margin: 3rem;
+  background-image: url('./images/product/product-header.jpg');
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+}
+
+.patient-centered-text {
+  top: 20rem;
+  left: 3rem;
+  width: 50%;
+  position: absolute;
+}
+
+.patient-centered-text h1 {
+  color: white;
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+}
+
+.patient-centered-text p {
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+
+#patient-centered-overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  width: ;
+  height: 1000px;
+}
+
+/* Product Page - Care At Your Command Section */
+.product-page-section {
+  margin: 3rem;
+}
+
+.product-section-container {
+  display: flex;
+}
+
+.product-page-section:nth-child(odd) {
+  background: rgb(245, 245, 245);
+}
+
+.product-page-image {
+  margin: 3rem;
+}
+
+.product-page-text {
+  margin: 3rem;
+  color: rgb(130, 130, 130);
+  align-items: center;
+  padding: 4rem;
+}
+
+.product-page-text h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+}
+
+.product-page-text p {
+  font-family: Avenir, sans-serif;
+  font-size: 1.25rem;
+}
+
+.product-page-quote {
+  font-family: 'Tiempos Headline', serif !important;
+  font-style: italic;
+}
+
+/* IMPLEMENTATION PAGE */
+
+/* Implementation Page - Hero Section */
+
+.implementation-hero {
+  margin: 3rem;
+  background-image: url('./images/implementation/implementation-header.jpg');
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+}
+
+.implementation-text {
+  top: 20rem;
+  left: 3rem;
+  width: 50%;
+  position: absolute;
+}
+
+.implementation-text h1 {
+  color: white;
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+}
+
+.implementation-text p {
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+
+#implementation-overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 1000px;
+}
+
+/* Implementation Page - List Section */
+
+.implementation-list {
+  margin: 3rem;
+  padding-top: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.implementation-list-header {
+  margin-bottom: 5rem;
+}
+
+.implementation-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.implementation-list-line {
+  display: inline;
+  margin: ;
+}
+
+.implementation-list h1 {
+  font-family: 'Tiempos Headline', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.implementation-list-item-container {
+  width: calc(100% / 2);
+}
+
+.implementation-list h2 {
+  font-family: 'Tiempos Headline', serif;
+  color: rgb(76, 84, 94);
+  font-size: 2.5rem;
+  display: inline;
+  padding-right: 2rem;
+}
+
+.implementation-list h3 {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.implementation-list p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.25rem;
+  line-height: 150%;
+  padding-bottom: 2rem;
+}
+
+/* ABOUT US PAGE */
+
+/* About Us - Hero Section */
+
+.about-us-hero {
+  margin: 3rem;
+  background-image: url('./images/about-us/about-us-header.jpg');
+  background-size: cover;
+  height: 1000px;
+  position: relative;
+}
+
+.about-us-text {
+  top: 20rem;
+  left: 3rem;
+  width: 50%;
+  position: absolute;
+}
+
+.about-us-text h1 {
+  color: white;
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+}
+
+.about-us-text p {
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  line-height: 200%;
+}
+
+.about-us-overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 1000px;
+}
+
+/* About Us - Info Section */
+
+.about-us-info {
+  margin: 3rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-info-blurb {
+  width: 800px;
+}
+
+.about-us-info h1 {
+  font-family: 'Tiempos Headline', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.about-us-info p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+.about-us-background {
+  background: rgb(245, 245, 245);
+}
+
+/* About Us - Our Team Section */
+
+.about-us-team {
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.about-us-entry-header {
+  width: 100%;
+  text-align: center;
+}
+
+.about-us-team-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-entry {
+  display: flex;
+  flex-flow: wrap column;
+  width: calc(100% / 3);
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.about-us-team img {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.about-us-team h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+  line-height: 80%;
+}
+
+.about-us-team p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.entry-text {
+  text-align: center;
+}
+
+/* About Us - Clinical Advisory Board Section */
+
+.about-us-advisory {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+#advisory-header {
+  text-align: center;
+  width: 100%;
+}
+
+.advisory-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.advisory-column {
+  width: calc(100% / 3);
+}
+
+.about-us-advisory h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+  line-height: 80%;
+}
+
+.about-us-advisory p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 300%;
+}
+
+/* About Us - Our Story */
+.about-us-story {
+  margin: 3rem;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-story-blurb {
+  width: 800px;
+}
+
+.about-us-story h1 {
+  font-family: 'Tiempos Headline', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.about-us-story p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+/* BLOG PAGE */
+
+/* Blog - Hero Section */
+
+.blog-hero {
+  margin: 3rem;
+  padding: 5rem;
+}
+
+.blog-hero h1 {
+  font-family: 'Tiempos Headline', serif;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.blog-hero p {
+  font-family: Avenir, sans-serif;
+  color: rgb(76, 84, 94);
+  font-size: 1.5rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+.blog-hero-form {
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  text-align: center;
+}
+
+.blog-hero-form-element {
+  width: 100%;
+}
+
+.blog-form-input {
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid rgb(76, 84, 94);
+  width: 800px;
+  height: 100px;
+}
+
+input::placeholder {
+  color: rgb(212, 212, 212);
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.blog-subscribe {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Blog - Articles Section */
+
+.blog-articles {
+  margin: 3rem;
+}
+
+.blog-articles h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 2rem;
+  color: rgb(76, 84, 94);
+}
+
+.blog-articles p {
+  font-family: Avenir, sans-serif;
+  font-size: 1.25rem;
+  color: rgb(76, 84, 94);
+}
+
+.blog-articles-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.blog-article {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-image {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* CONTACT US PAGE  */
+
+.contact-us {
+  display: flex;
+  margin: 3rem;
+  align-items: center;
+}
+
+.contact-us h1 {
+  font-family: 'Tiempos Headline', serif;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.contact-us h2 {
+  font-family: Avenir, serif;
+  font-size: 3rem;
+  color: rgb(76, 84, 94);
+}
+
+.contact-us p {
+  font-family: Avenir, serif;
+  color: rgb(76, 84, 94);
+  font-size: 2rem;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-column {
+  width: calc(100% / 2);
+  margin: 2rem;
+}
+
+.contact-form-input {
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid rgb(76, 84, 94);
+  height: 100px;
+  width: 100%;
+}
+
+textarea {
+  border: transparent;
+  background: transparent;
+  border-bottom: 1px solid rgb(76, 84, 94);
+  height: 100px;
+  width: 100%;
+}
+
+textarea::placeholder {
+  padding-top: 4rem;
+  color: rgb(212, 212, 212);
+  font-family: Avenir, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-info-button {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.submit-contact-info {
+  background-color: #294463;
+  color: white;
+  font-family: Avenir, sans-serif;
+  font-size: 1.25rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}

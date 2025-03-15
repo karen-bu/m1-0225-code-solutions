@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Challenge - Canvas Medical</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header Section-->
+      <section class="header">
+        <div class="header-logo">
+          <a href="./index.html"><img src="./images/logo-blue.svg" /></a>
+        </div>
+        <div class="header-links">
+          <a href="./product.html" class="header-link">Product</a>
+          <a href="./implementation.html" class="header-link">Implementation</a>
+          <a href="./about-us.html" class="header-link">About Us</a>
+          <a href="./blog.html" class="header-link">Blog</a>
+          <button id="contact">Contact Us</button>
+        </div>
+      </section>
+
+      <hr class="solid" />
+
+      <!-- About Us Hero Section -->
+      <section class="about-us-hero">
+        <div class="about-us-text">
+          <h1>Clinicians should have software they love.</h1>
+          <p>
+            Our mission is to give clinicians and their teams highly usable,
+            intelligent tools to advance their practice of medicine — and
+            improve their day-to-day.
+          </p>
+        </div>
+        <div class="about-us-overlay"></div>
+      </section>
+
+      <!-- About Us Info Section -->
+      <section class="about-us-info">
+        <div class="about-us-info-blurb">
+          <h1>What We Believe</h1>
+          <p>
+            Why did we enter this crowded field? Because medical records have
+            fallen dramatically short of their promise to improve the quality
+            and efficiency of healthcare. Clinicians spend far too long at their
+            computers. Workflows are overly restrictive. Valuable medical data
+            is left unstructured.
+          </p>
+          <p>
+            We are honored and humbled when a practice chooses us as their
+            technology partner. Medicine is a delicate craft that mixes art and
+            science — technology can help or hinder this craft. Working with
+            clinicians across the country, we think we have begun to build
+            something that helps.
+          </p>
+          <p>
+            <a href=""
+              >Check out our blog for updates, data, and essays on Canvas and
+              American primary care.</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- Our Team Section-->
+      <div class="about-us-background">
+        <section class="about-us-team">
+          <div class="about-us-team-grid">
+            <div class="about-us-entry-header">
+              <h1>Our Team</h1>
+            </div>
+
+            <!-- Denis Bajet-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/denis.jpg" />
+              </div>
+              <div class="entry-text">
+                <h1>Denis Bajet</h1>
+                <p>Senior Software Engineer</p>
+              </div>
+            </div>
+
+            <!-- Beau Gunderson-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/bean.jpg" />
+              </div>
+              <div class="entry-text">
+                <h1>Beau Gunderson</h1>
+                <p>CTO</p>
+              </div>
+            </div>
+
+            <!-- Jessica Herbert-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/jessica.jpg" />
+              </div>
+              <div class="entry-text">
+                <h1>Jessica Herbert</h1>
+                <p>Customer Implementation and Support Manager</p>
+              </div>
+            </div>
+
+            <!-- Andrew Hines-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/andrew.png" />
+              </div>
+              <div class="entry-text">
+                <h1>Andrew Hines</h1>
+                <p>CEO</p>
+              </div>
+            </div>
+
+            <!-- Julian Malinak-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/julian.jpg" />
+              </div>
+              <div class="entry-text">
+                <h1>Julian Malinak</h1>
+                <p>Chief Operating Officer</p>
+              </div>
+            </div>
+
+            <!-- Pedro Torres-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/pedro.jpeg" />
+              </div>
+              <div class="entry-text">
+                <h1>Pedro Torres</h1>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+
+            <!-- Mel van Londen-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/mel.jpg" />
+              </div>
+              <div class="entry-text">
+                <h1>Mel van Londen</h1>
+                <p>Head of Product</p>
+              </div>
+            </div>
+
+            <!-- Michael Zimmerman-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/michael.jpg" />
+              </div>
+              <div class="entry-text">
+                <h1>Michael Zimmerman MD</h1>
+                <p>Medical Director</p>
+              </div>
+            </div>
+
+            <!-- You-->
+            <div class="about-us-entry">
+              <div class="entry-image">
+                <img src="./images/about-us/team-members/you.png" />
+              </div>
+              <div class="entry-text">
+                <h1>You</h1>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Advisory Board Section-->
+        <section class="about-us-advisory">
+          <div class="advisory-row">
+            <h1 id="advisory-header">Clinical Advisory Board</h1>
+          </div>
+          <div class="advisory-row">
+            <div class="advisory-column">
+              <p>Andrew Nadler MD, Internal Medicine</p>
+              <p>Bruce Block MD, Pediatrics</p>
+              <p>Anna Himes FNP, Family Nurse Practicioner</p>
+            </div>
+
+            <div class="advisory-column">
+              <p>Ninad Athale MD, Family Medicine</p>
+              <p>Steve Magee MD, Family Medicine</p>
+            </div>
+
+            <div class="advisory-column">
+              <p>Meenesh Bhimani MD, Emergency Medicine</p>
+              <p>Erik McDonald MD, Orthopedic Surgery</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Our Story-->
+      <section class="about-us-story">
+        <div class="about-us-story-blurb">
+          <h1>Our Story</h1>
+          <p>
+            Andrew founded Canvas in 2015 after years of seeing his wife Anna —
+            a family nurse practitioner — sacrifice family time in the evenings
+            to &quot;finish&quot; charting. It never ended.
+          </p>
+          <p>
+            Andrew knew that the answer wasn't to go out and do it alone. He
+            started to fill the gaps in his experience. Seven practicing
+            clinicians formed the clinical advisory board — rather than leave
+            practice to work full-time with Canvas, they used and reviewed
+            product changes in their practices. Our Medical Director, Dr.
+            Zimmerman, joined when he saw the potential of Canvas to help
+            independent practices like his practice, Temescal Creek Medicine in
+            Oakland, CA. Julian joined Canvas after working at Medicare and
+            seeing the failures of current technology to keep up with increasing
+            regulatory demands without burdening clinicians. Joe and a
+            world-class group of software developers joined to accelerate our
+            ability to listen to clinician feedback and constantly improve the
+            product.
+          </p>
+          <p>
+            With Canvas, we created a fundamentally different way of charting
+            that completely eliminates the need for menus and pop-ups. The name
+            of the company describes the charting experience — it feels like a
+            blank canvas where you can tell the patient's story and seamlessly
+            complete notes, orders, and chart review on a single, unified
+            screen. With seamlessly integrated population health, billing, and
+            practice management, Canvas is a reimagined platform for the modern
+            primary care practice.
+          </p>
+        </div>
+      </section>
+
+      <hr class="solid" />
+
+      <!-- Footer Section -->
+      <section class="footer">
+        <div class="learn-more">
+          <div class="footer-row">
+            <div class="learn-more-footer-column">
+              <h1>Ready to learn more?</h1>
+              <p>Schedule a private meeting now.</p>
+            </div>
+            <button class="get-started">Get Started</button>
+          </div>
+        </div>
+
+        <div class="site-map">
+          <div class="footer-row">
+            <div class="site-map-footer-column">
+              <img src="./images/logo-white.png" id="footer-logo" />
+
+              <div class="address">
+                <p>2307 Irving Street, Suite 228</p>
+                <p>San Francisco CA 94122</p>
+                <p>(800) 370-1416</p>
+                <p>info@canvasmedical.com</p>
+              </div>
+            </div>
+
+            <div class="site-map-footer-column">
+              <p class="footer-column-title">COMPANY</p>
+              <div class="footer-column-links">
+                <p>
+                  <a href="./about-us.html" class="footer-link">About Us</a>
+                </p>
+                <p><a href="./blog.html" class="footer-link">Blog</a></p>
+              </div>
+            </div>
+
+            <div class="site-map-footer-column">
+              <p class="footer-column-title">PRODUCT</p>
+              <div class="footer-column-links">
+                <p><a href="./product.html" class="footer-link">Product</a></p>
+                <p>
+                  <a href="./implementation.html" class="footer-link"
+                    >Implementation</a
+                  >
+                </p>
+                <p><a href="" class="footer-link">For Health Plans</a></p>
+                <p><a href="" class="footer-link">Security</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="privacy-contact">
+          <div class="privacy-contact-footer-row">
+            <p>
+              <a href="" class="privacy-contact-link">Privacy &amp; Terms</a>
+            </p>
+            <p>
+              <a href="./contact-us.html" class="privacy-contact-link"
+                >Contact Us</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
