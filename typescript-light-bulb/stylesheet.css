@@ -1,4 +1,4 @@
-.container-on {
+.container.on {
   display: flex;
   height: 100vh;
   align-items: center;
@@ -6,7 +6,7 @@
   background-color: rgb(255, 252, 236);
 }
 
-.on-dot {
+.dot.on {
   background-color: gold;
   border-radius: 500px;
   height: 500px;
@@ -14,7 +14,7 @@
   box-shadow: 0 0 100px 50px goldenrod;
 }
 
-.container-off {
+.container.off {
   display: flex;
   height: 100vh;
   align-items: center;
@@ -22,7 +22,7 @@
   background-color: rgb(35, 35, 35);
 }
 
-.off-dot {
+.dot.off {
   background-color: rgb(50, 50, 50);
   border-radius: 500px;
   height: 500px;
