@@ -10,20 +10,20 @@ body {
   font-size: 5rem;
 }
 
-span {
+.letter {
   font-family: Texturina, monospace;
   font-size: 5rem;
   color: white;
 }
 
-span.correct {
+.letter.correct {
   color: goldenrod;
 }
 
-span.incorrect {
+.letter.incorrect {
   color: red;
 }
 
-span.target {
+.letter.target {
   border-bottom: 5px solid;
 }
