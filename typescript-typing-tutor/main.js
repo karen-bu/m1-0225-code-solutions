@@ -1,9 +1,19 @@
 'use strict';
 // queryAll to get nodeList (acts like an array , can ask for i of the nodelist)
 // declare a variable to keep track of current position typed and if it matches the span textcontent
-const $letter = document.querySelector('.letter');
+const $letter = document.querySelectorAll('.letter');
+if (!$letter) throw new Error('$letter does not exist!');
 console.log($letter);
-// if (!$letter) throw new Error('$letter does not exist!');
-// $letter?.addEventListener('keydown', (event: Event) => {
-//   console.log('key pressed');
-// });
+for (let i = 0; i < $letter.length; i++) {
+  console.log($letter[i].textContent);
+}
+document.addEventListener('keydown', (event) => {
+  const keyPressed = event.key;
+  console.log(event.key);
+  for (let i = 0; i < $letter.length; i++)
+    if (keyPressed === $letter[i].textContent) {
+      console.log('matches!');
+    } else if (keyPressed !== $letter[i].textContent) {
+      console.log('does not match!');
+    }
+});
