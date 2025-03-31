@@ -1,22 +1,24 @@
-// queryAll to get nodeList (acts like an array , can ask for i of the nodelist)
-// declare a variable to keep track of current position typed and if it matches the span textcontent
-
 const $letter = document.querySelectorAll('.letter');
 if (!$letter) throw new Error('$letter does not exist!');
-console.log($letter);
+// console.log($letter);
 
-for (let i = 0; i < $letter.length; i++) {
-  console.log($letter[i].textContent);
-}
+// for (let i = 0; i < $letter.length; i++) {
+//   console.log($letter[i].textContent);
+// }
 
 document.addEventListener('keydown', (event: KeyboardEvent) => {
   const keyPressed = event.key;
   console.log(event.key);
 
-  for (let i = 0; i < $letter.length; i++)
-    if (keyPressed === $letter[i].textContent) {
-      console.log('matches!');
-    } else if (keyPressed !== $letter[i].textContent) {
-      console.log('does not match!');
-    }
+  let currentLetter = 0;
+
+  if (keyPressed === $letter[currentLetter].textContent) {
+    console.log('same hat!');
+    $letter[currentLetter].className = 'letter correct';
+    $letter[currentLetter + 1].className = 'letter target';
+    currentLetter++;
+  } else {
+    console.log('wrong letter!');
+    $letter[currentLetter].className = 'letter incorrect';
+  }
 });
