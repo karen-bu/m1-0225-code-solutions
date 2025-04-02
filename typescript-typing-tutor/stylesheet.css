@@ -13,7 +13,7 @@ body {
 .letter {
   font-family: Texturina, monospace;
   font-size: 5rem;
-  color: white;
+  color: whitesmoke;
 }
 
 .letter.correct {
@@ -26,4 +26,23 @@ body {
 
 .letter.target {
   border-bottom: 5px solid;
+}
+
+dialog {
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  border: 1px;
+  max-width: 30vh;
+  max-height: 30vh;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: Texturina, monospace;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
 }
