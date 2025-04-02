@@ -7,8 +7,7 @@ function writeTodos() {
 function readTodos() {
   const todosStorage = localStorage.getItem('todos-storage');
   if (todosStorage !== '') {
-    JSON.parse(todosStorage);
-    return todos;
+    return JSON.parse(todosStorage);
   } else {
     return [];
   }

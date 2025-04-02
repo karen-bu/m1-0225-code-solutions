@@ -15,8 +15,7 @@ function writeTodos(): void {
 function readTodos(): any {
   const todosStorage = localStorage.getItem('todos-storage') as string;
   if (todosStorage !== '') {
-    JSON.parse(todosStorage);
-    return todos;
+    return JSON.parse(todosStorage);
   } else {
     return [];
   }
