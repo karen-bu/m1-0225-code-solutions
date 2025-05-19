@@ -41,40 +41,6 @@ async function throwChained(): Promise<void> {
   }
 }
 
-throwOnce()
-  .then(() => throwSeveral())
-  .then(() => throwChained());
-
-// function throwOnce(): Promise<void> {
-//   return read('foo', false)
-//     .then((msg) => console.log(elapsed(), 'throwOnce:', msg))
-//     .catch((error) => console.log(elapsed(), 'throwOnce Error:', error));
-// }
-
-// function throwSeveral(): Promise<void> {
-//   return read('foo1', false)
-//     .then((msg) => {
-//       console.log(elapsed(), 'throwSeveral1:', msg);
-//       return read('foo2', false);
-//     })
-//     .then((msg) => {
-//       console.log(elapsed(), 'throwSeveral2:', msg);
-//       return read('foo3', false);
-//     })
-//     .then((msg) => console.log(elapsed(), 'throwSeveral3:', msg))
-//     .catch((error) => console.log(elapsed(), 'throwSeveral Error:', error));
-// }
-
-// function throwChained(): Promise<void> {
-//   return read('foo-chain', false)
-//     .then((msg1) => {
-//       console.log(elapsed(), 'throwChained1:', msg1);
-//       return read(msg1, false);
-//     })
-//     .then((msg2) => {
-//       console.log(elapsed(), 'throwChained2:', msg2);
-//       return read(msg2, false);
-//     })
-//     .then((msg3) => console.log(elapsed(), 'throwChained3:', msg3))
-//     .catch((error) => console.log(elapsed(), 'throwChained Error:', error));
-// }
+await throwOnce();
+await throwSeveral();
+await throwChained();
